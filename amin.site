@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мехмет — Портфолио</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        body { font-family: system-ui, sans-serif; }
+        .hero-bg { background: linear-gradient(135deg, #1e3a8a, #3b82f6); }
+    </style>
+</head>
+<body class="bg-gray-950 text-gray-200">
+
+    <!-- ШАПКА -->
+    <header class="hero-bg text-white py-20">
+        <div class="max-w-4xl mx-auto text-center px-6">
+            <h1 class="text-6xl font-bold mb-4">Привет, я Мехмет</h1>
+            <p class="text-2xl mb-8">Разработчик / Дизайнер / [твоя профессия]</p>
+            <a href="#projects" 
+               class="bg-white text-blue-700 px-8 py-4 rounded-full font-semibold inline-flex items-center gap-3 hover:bg-yellow-300 transition">
+               Посмотреть мои работы
+               <i class="fas fa-arrow-down"></i>
+            </a>
+        </div>
+    </header>
+
+    <!-- ОБО МНЕ -->
+    <section class="max-w-4xl mx-auto px-6 py-16">
+        <h2 class="text-4xl font-bold text-center mb-12">Обо мне</h2>
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <p class="text-lg leading-relaxed">
+                    Коротко расскажи о себе. Например: Я — frontend-разработчик из Франкфурта. 
+                    Создаю современные веб-сайты и приложения. 3+ года опыта, работал с React, Tailwind, Figma.
+                </p>
+                <div class="mt-8 flex gap-6">
+                    <a href="#" class="text-3xl hover:text-blue-400"><i class="fab fa-github"></i></a>
+                    <a href="#" class="text-3xl hover:text-blue-400"><i class="fab fa-telegram"></i></a>
+                    <a href="#" class="text-3xl hover:text-blue-400"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="bg-gray-900 rounded-3xl p-8 text-center">
+                <p class="text-5xl font-bold text-blue-400">5+</p>
+                <p class="text-sm mt-2">завершённых проектов</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- НАВЫКИ -->
+    <section class="bg-gray-900 py-16">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-12">Навыки</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="bg-gray-800 rounded-2xl p-6 text-center">HTML / CSS</div>
+                <div class="bg-gray-800 rounded-2xl p-6 text-center">JavaScript</div>
+                <div class="bg-gray-800 rounded-2xl p-6 text-center">React</div>
+                <div class="bg-gray-800 rounded-2xl p-6 text-center">Tailwind CSS</div>
+                <!-- Добавляй свои -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ПРОЕКТЫ -->
+    <section id="projects" class="max-w-4xl mx-auto px-6 py-16">
+        <h2 class="text-4xl font-bold text-center mb-12">Мои проекты</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+            <!-- Проект 1 -->
+            <div class="bg-gray-900 rounded-3xl overflow-hidden">
+                <div class="h-64 bg-gray-700 flex items-center justify-center text-6xl">🖼️</div>
+                <div class="p-8">
+                    <h3 class="text-2xl font-semibold mb-2">Название проекта 1</h3>
+                    <p class="text-gray-400 mb-4">Короткое описание. Что ты делал и какой результат.</p>
+                    <a href="#" class="text-blue-400 hover:underline">Посмотреть →</a>
+                </div>
+            </div>
+            <!-- Добавь ещё карточки по тому же шаблону -->
+        </div>
+    </section>
+
+    <!-- КОНТАКТЫ -->
+    <footer class="bg-black py-12 text-center">
+        <div class="max-w-4xl mx-auto px-6">
+            <p class="text-2xl mb-6">Давай работать вместе!</p>
+            <p class="mb-8">me@твойemail.ru • @твой_ник_в_телеграм</p>
+            <p class="text-sm text-gray-500">© 2026 Мехмет • Сайт на GitHub Pages</p>
+        </div>
+    </footer>
+
+</body>
+</html>
